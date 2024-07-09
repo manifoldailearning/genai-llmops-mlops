@@ -17,4 +17,5 @@ git checkout <name-of-branch-to-switch>
 git checkout -b <new-branch-name>
 
 git merge <branch>
+# New commands
 ```
