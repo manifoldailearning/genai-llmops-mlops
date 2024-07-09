@@ -10,4 +10,11 @@ git pull # fetch and merge
 
 git status
 git add [file]
+
+git branch
+git branch <branch-name>
+git checkout <name-of-branch-to-switch>
+git checkout -b <new-branch-name>
+
+git merge <branch>
 ```
