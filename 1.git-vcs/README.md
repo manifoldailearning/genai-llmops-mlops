@@ -10,4 +10,6 @@ git pull # fetch and merge
 
 git status
 git add [file]
+
+# New commands
 ```
