@@ -1,5 +1,6 @@
 MANIFEST.in
 README.md
+main.py
 requirements.txt
 setup.py
 ./tests/pytest.ini

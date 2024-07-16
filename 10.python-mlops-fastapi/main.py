@@ -19,12 +19,12 @@ model = load_pipeline(config.MODEL_NAME)
 class LoanPred(BaseModel):
 	Gender: str
 	Married: str
-	Dependents: float
+	Dependents: str
 	Education: str
 	Self_Employed: str
 	LoanAmount: float
 	Loan_Amount_Term: float
-	Credit_History: float
+	Credit_History: int
 	Property_Area: str
 	ApplicantIncome: float
 	CoApplicant: float
