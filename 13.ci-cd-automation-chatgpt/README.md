@@ -1,11 +1,3 @@
-# About the Repo
-This repo is part of the LLMOps course by Manifold AI Learning,
-Course link - https://www.manifoldailearning.in/courses/LLMOps-with-ChatGPT-Deploy-on-Production-65cb265ae4b086660d2836ae
-
-Reach the Instructor at - https://www.linkedin.com/in/nachiketh-murthy/
-
-For any support reach out to : support@manifoldailearning.in
-
 # Help on FAST API
 
 ```
@@ -47,3 +39,5 @@ kubectl create secret generic openai-secret --from-literal=API_KEY=<api-key>
 docker buildx build --platform=linux/amd64 -t yourusername/chatgpt-project:v3 .
 docker push yourusername/chatgpt-project:v3
 ```
+
+![alt text](image.png)

@@ -51,7 +51,7 @@ kubectl describe cm app-config
 kubectl exec -it app-pod -- /bin/bash
 
 kubectl create secret generic db-secret --from-literal=DB_PASSWORD=password123
-
+kubectl apply -f secret.yaml
 
 kubectl exec -it db-pod -- /bin/bash
 ```
