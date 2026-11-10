@@ -55,7 +55,8 @@ def predict_loan_status(loan_details: LoanPred):
 	print(pd.DataFrame([[gender, married, dependents, education, self_employed,applicant_income,co_applicant,loan_amt, loan_term, credit_hist, property_area]],columns=config.FEATURES))
 	prediction = model.predict(pd.DataFrame([[gender, married, dependents, education, self_employed,applicant_income,co_applicant,loan_amt, loan_term, credit_hist, property_area]],columns=config.FEATURES))
 
-	if prediction == 0:
+	# predict() returns an array even for one row. Read the first label.
+	if prediction[0] == 0:
 		pred = 'Rejected'
 	else:
 		pred = 'Approved'
